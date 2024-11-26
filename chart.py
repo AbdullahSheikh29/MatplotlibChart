@@ -2,11 +2,11 @@ import matplotlib.pyplot as plt
 
 # Example data
 categories = ['A', 'B', 'C', 'D']
-values = [23, 45, 56, 78]
+values = [27, 49, 65, 88]
 
 # Plot the data
-plt.bar(categories, values, color='skyblue')
-plt.title('Example Bar Chart')
+plt.bar(categories, values, color='black')
+plt.title('Bar Chart')
 plt.xlabel('Categories')
 plt.ylabel('Values')
 plt.show()
